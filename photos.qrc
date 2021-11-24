@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>set.png</file>
+        <file>set1.png</file>
+        <file>title.png</file>
+        <file>new.png</file>
+        <file>run.png</file>
+    </qresource>
+</RCC>
