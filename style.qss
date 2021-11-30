@@ -95,26 +95,17 @@ QLabel#appname {
 
 QPushButton#set_btn{
     border-image:url(:/set.png);
-    width:55px;
-    height:55px;
+    width:40px;
+    height:40px;
 }
 QPushButton:hover#set_btn{
     border-image:url(:/set1.png);
 }
 
-QHeaderView::section {
-    height:25px;
-    color:white;
-    background:#505050;
-    border-left:0px solid gray;
-    border-right:1px solid gray;
-    border-top:0px solid gray;
-    border-bottom:0px solid gray;
-}
 
 QTreeView {
     border:none;
-    background: #404040;
+    background: #9999FF;
     min-width:50px;
     show-decoration-selected: 1;
 }
@@ -139,62 +130,6 @@ QTreeView::branch:hover {
 QTreeView::branch:selected {
     background: #1E90FF;
 }
-QPushButton#piano1{
-    color:white;
-    border-image:url(./photos/p1t.png);
-    min-width:64px;
-    min-height:300px;
-}
-QPushButton:pressed#piano1{
-    border-image:url(./photos/p1c.png);
-}
-QPushButton#pianob{
-    color:black;
-    border-image:url(./photos/b.png);
-min-width:44px;
-min-height:238px;
-}
-QPushButton:pressed#pianob{
-    border-image:url(./photos/bc.png);
-}
-QPushButton#piano2{
-    color:white;
-    border-image:url(./photos/p2t.png);
-    min-width:64px;
-    min-height:300px;
-}
-QPushButton:pressed#piano2{
-    border-image:url(./photos/p2c.png);
-}
-
-QPushButton#piano3{
-    color:white;
-    border-image:url(./photos/p3t.png);
-    min-width:64px;
-    min-height:300px;
-}
-QPushButton:pressed#piano3{
-    border-image:url(./photos/p3c.png);
-}
-
-QPushButton#player_play{
-    color:white;
-    border-image:url(./photos/play.png);
-    min-width:55px;
-    min-height:55px;
-}
-QPushButton:checked#player_play{
-    border-image:url(./photos/pause.png);
-}
-
-/*
-QPushButton#player_next{
-    color:white;
-    border-image:url(./photos/next.png);
-    min-width:55px;
-    min-height:55px;
-}
-*/
 
 QProgressBar{
 border: 2px solid grey;

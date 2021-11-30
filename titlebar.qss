@@ -1,0 +1,22 @@
+QPushButton#minimizeButton{
+    border-image:url(:/min.png);
+    width:30px;
+    height:30px;
+}
+QPushButton#maximizeButton{
+    border-image:url(:/max.png);
+    width:30px;
+    height:30px;
+}
+QPushButton#closeButton{
+    border-image:url(:/close.png);
+    width:30px;
+    height:30px;
+}
+QLabel {
+    border:none;
+    font-size:40px;
+    color:white;
+    font-family:STKaiti;
+    font-weight:bold;
+}

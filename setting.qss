@@ -1,5 +1,11 @@
+QLabel#setLabel{
+    color: white;
+    font-size: 25px;
+    font-family:STKaiti;
+    font-weight:bold;
+}
 QPushButton {
-    background-color: rgb(75, 75, 75);
+    background-color: #9999FF;
     border-radius: 8px;
     padding: 16px 32px;
     text-align: center;
@@ -11,7 +17,7 @@ QPushButton {
 
 QPushButton:hover {
     background-color: white;
-    border: 1px solid rgb(75, 75, 75);
+    border: 1px solid #9999FF;
     color: black
 }
 

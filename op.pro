@@ -1,4 +1,5 @@
 QT       += core gui
+QT+=charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,17 +17,27 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    List.cpp \
+    createDialog.cpp \
     main.cpp \
     mainwindow.cpp \
+    maskwidget.cpp \
     progressCreator.cpp \
     progressMonitor.cpp \
-    settingDialog.cpp
+    settingDialog.cpp \
+    title_bar.cpp \
+    toolTitleBar.cpp
 
 HEADERS += \
+    List.h \
+    createDialog.h \
     mainwindow.h \
+    maskwidget.h \
     progressCreator.h \
     progressMonitor.h \
-    settingDialog.h
+    settingDialog.h \
+    title_bar.h \
+    toolTitleBar.h
 
 FORMS +=
 

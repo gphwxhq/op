@@ -3,5 +3,6 @@
         <file>style.qss</file>
         <file>setting.qss</file>
         <file>creator.qss</file>
+        <file>titlebar.qss</file>
     </qresource>
 </RCC>

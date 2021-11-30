@@ -5,5 +5,10 @@
         <file>title.png</file>
         <file>new.png</file>
         <file>run.png</file>
+        <file>title4.png</file>
+        <file>title2.png</file>
+        <file>close.png</file>
+        <file>max.png</file>
+        <file>min.png</file>
     </qresource>
 </RCC>
